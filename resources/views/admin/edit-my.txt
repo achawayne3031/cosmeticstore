@@ -1,0 +1,74 @@
+
+            {!! Form::open(['method' => 'POST', 'action' => ['AdminController@update', $items->id], 'enctype' => 'multipart/form-data', 'onSubmit' => 'return update()']) !!}
+                <table class="table table-borderless">
+                    <tr>
+                        <th>View Product</th>
+                        <td>{{ Form::radio('view', 'on')}} On<br>
+                            {{ Form::radio('view', 'off')}} Off</td>
+                    </tr>
+
+                    <tr>
+                        <th>Product Name</th>
+                        <td>{{ Form::text('name', $items->name, ['class' => 'form-control add-new-item-text-fields', 'placeholder' => 'Enter the product name', 'id' => 'pro-name', 'required'])}}
+                        <span id="pro-name-msg" class="text-danger"></span></td>
+                    </tr>
+
+                    <tr>
+                        <th>Price</th>
+                        <td>{{ Form::text('price', $items->price, ['class' => 'form-control add-new-item-text-fields', 'placeholder' => 'Enter the price', 'id' => 'price', 'required'])}}
+                        <span id="price-msg" class="text-danger"></span></td>
+                    </tr>
+
+                     <tr>
+                        <th>Discount</th>
+                        <td>{{ Form::number('discount', $items->discount, ['class' => 'form-control add-new-item-text-fields', 'placeholder' => 'Enter the discount' , 'min' => '1'])}}</td>
+                    </tr>
+
+                    <tr>
+                        <th>Discount Switch</th>
+                        <td>{{ Form::radio('state', 'on')}} On<br>
+                            {{ Form::radio('state', 'off')}} Off</td>
+                    </tr>
+
+                     <tr>
+                        <th>Volume</th>
+                        <td>{{ Form::number('volume', $items->volume, ['class' => 'form-control add-new-item-text-fields', 'placeholder' => 'Volume', 'required' , 'min' => '1'])}}</td>
+                    </tr>
+
+                    <tr>
+                        <th>Brand Name</th>
+                        <td>{{ Form::text('brand_name', $items->brand_name, ['class' => 'form-control add-new-item-text-fields', 'placeholder' => 'Brand name', 'required'])}}</td>
+                    </tr>
+
+                    <tr>
+                        <th>Category</th>
+                        <td>{{ Form::select('category', [$items->category => $items->category,'skin care' => 'Skin care', 'fragrance' => 'Fragrance', 'make up' => 'Make Up', 'bath and body' => 'Bath & Body', 'foot care' => 'Foot Care', 'face care' => 'Face Care'], null, ['class' => 'form-control add-new-item-text-fields custom-select', 'required'])}}</td>
+                    </tr> 
+
+                    <tr>
+                        <th>Sold</th>
+                        <td>{{ Form::number('sold', $items->sold, ['class' => 'form-control add-new-item-text-fields', 'placeholder' => 'Sold', 'required'])}}</td>
+                    </tr> 
+
+                    <tr>
+                        <th>Product Image</th>
+                        <td>{{ Form::file('product_image', ['id' => 'image-btn-target'])}} <span class='btn btn-success' onclick="callImageBtn()">Upload Image</span><span id="image-text-name"></span><span id="image-msg" class="text-danger"></span></td>
+                    </tr> 
+            
+                    <tr>
+                        <th>Description</th>
+                        <td>{{ Form::textarea('description', $items->description, ['class' => 'form-control add-new-item-text-fields', 'placeholder' => 'Description', 'id' => 'desc-body', 'required'])}}</td>
+                    </tr> 
+
+                    <tr>
+                        <td> 
+                            {{ Form::hidden('_method', 'PUT') }}
+                            {{ Form::submit('Submit', ['class' => 'btn btn-success'])}}
+                        </td>
+                    </tr>
+
+                </table>
+
+            {!! Form::close() !!}
+    
+        

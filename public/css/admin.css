@@ -1,0 +1,506 @@
+
+
+
+.admin-link-con{
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#create-btn-loader{
+    display: none;
+}
+
+#create-alert-success{
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+
+
+#create-alert-error{
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+
+
+.create-product-alert-text{
+    font-size: 13px;
+    margin: 5px;
+}
+
+#image-text-name{
+    font-size: 13px;
+}
+
+#create-btn{
+    font-size: 13px;
+}
+
+.admin-table-img-view{
+    height: 80px;
+}
+
+
+.detail-dashboard-text{
+    font-size: 13px;
+    padding: 3px;
+    text-shadow: 2px 2px 3px gray;
+}
+
+.naira-text{
+    font-size: 12px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.delivery-text{
+    background-color: olivedrab;
+    padding: 3px;
+    box-shadow: 1px 2px 3px black;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+
+#refresh{
+    cursor: pointer;
+}
+
+
+#refresh:hover{
+    box-shadow: 2px 2px 3px black;
+    background-color: brown;
+}
+
+
+#side-menu-body{
+    background-color: lightgray; 
+    padding: 0px;
+    height: 700px;
+    position: fixed;
+}
+
+#pro-management-dropdown-body{
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0px;
+    display: none;
+}
+
+#dashboard-admin-links{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#image-btn-target{
+    display: none;
+}
+
+#desc-body{
+    resize: none;
+}
+
+#image-text-name{
+    padding-left: 10px;
+}
+
+#add-title{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sub-menu-icons{
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+#pro-name-msg, #price-msg, #image-msg{
+    font-size: 13px;
+    text-decoration: underline;
+    display: block;
+}
+
+.fund-tab-links{
+    font-size: 13px;
+}
+
+.no-data-entry-fund-text{
+    font-size: 13px;
+}
+
+.user-admin-fund-paginate{
+    font-size: 13px;
+}
+
+.user-admin-transact-title{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+#fund-text{
+    font-size: 13px;
+}
+
+.side-menu-icons{
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+#update-count{
+    position: absolute;
+    top: 9px;
+    left: 25px;
+}
+
+.add-new-item-text-fields{
+    width: 80%;
+    font-size: 13px;
+}
+
+#update-icon{
+    font-size: 20px;
+
+}
+
+.see-detail-img{
+    height: 100px;
+    width: auto;
+}
+
+.table-text{
+    font-size: 13px;
+}
+
+.pro-manage-admin-links{
+    padding: 5px;
+    font-size: 12px;
+}
+
+#stock-management-dropdown{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 20px;
+    display: none;
+}
+
+#instant-dep-text{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.instant-text{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.hr-line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.most-order-title{
+    font-weight: normal;
+    font-size: 13px;
+}
+
+#most-order-text{
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+}
+
+.see-all-text{
+    padding: 3px 5px;
+    font-size: 12px;
+    float: right;
+    margin-right: 10px;
+}
+
+.my-table{
+    display: inline-table;
+}
+
+#most-order{
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    padding: 0px;
+    overflow: auto;
+    height: 300px;
+}
+
+.alert-text{
+    font-size: 13px;
+}
+
+#user-update-password-text{
+    font-size: 13px;
+}
+
+#user-update-password-loader{
+    display: none;
+}
+
+
+.user-img-order{
+    height: 100px;
+    width: 100%;
+}
+
+.btn-table{
+    padding: 3px;
+    font-size: 13px;
+}
+
+#fund-loader{
+    display: none;
+}
+
+.admin-alert-box{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    display: none;
+}
+
+.most-order-img{
+    width: 100px;
+    height: 100px;
+}
+
+#overview-text{
+    font-size: 13px;
+    color: honeydew;
+}
+
+#page-visits-text{
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.see-all-page-text{
+    padding: 2px 5px;
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.page-visit-body{
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+#sales-value-text{
+    font-size: 15px;
+    font-weight: bold;
+    color: ivory;
+}
+
+#sales-body-con{
+    border-radius: 10px;
+    background-color: darkblue;
+    box-shadow: 0px 0px 5px grey;
+    height: 300px;
+}
+
+.table-content-text{
+    font-size: 12px;
+    text-align: center;
+}
+
+#deposit-amount-text{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#credit-text{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.instant-msg{
+    font-size: 11px;
+}
+
+#stock-management-dropdown-icon{
+    float: right;
+    font-size: 20px;
+}
+
+#stock-dropdown-trigger{
+    cursor: pointer;
+}
+
+.stock-management-links{
+    padding: 5px;
+    font-size: 12px;
+}
+
+
+.stock-management-links:hover{
+    background-color: darksalmon;
+    color: green;
+}
+
+#admin-product-detail-body{
+    height: 500px;
+    overflow: auto;
+}
+
+.btn-item{
+    padding: 3px;
+}
+
+#status-content{
+    width: 100%;
+    border-radius: 5px;
+    border-right: 3px solid orange;
+    padding: 20px;
+    background-color: lightsteelblue;
+    box-shadow: 1px 2px 4px indianred;
+}
+
+.pro-manage-admin-links:hover {
+    background-color: darksalmon;
+    color: green;
+}
+
+#dashbord-icon{
+    font-size: 20px;
+    float: right;
+}
+
+#pro-manage-text{
+    cursor: pointer;
+}
+
+#management-dropdown-icon{
+    float: right;
+    font-size: 20px;
+}
+
+#template-body{
+    padding-top: 10px;
+}
+
+.admin-links{
+    padding: 8px;
+    font-size: 13px;
+}
+
+
+.admin-links:hover{
+    background-color: darksalmon;
+    color: green;
+}
+
+.admin-link-items{
+    text-decoration: none;
+    color: black;
+}
+
+.admin-link-items:hover{
+    text-decoration: none;
+}
+
+
+.add-title{
+    font-size: 13px;
+}
+
+.user-admin-paginate{
+    font-size: 13px;
+}
+
+
+
+.user-admin-no-payment-text{
+    font-size: 13px;
+}
+
+
+#dashboard-admin-links{
+    font-size: 13px;
+}
+
+.user-profile-title-text{
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.user-dashboard-text{
+    font-size: 13px;
+    padding: 10px;
+}
+
+.user-small-screen-side-menu-icons{
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#small-screen-side-nav-row{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    position: absolute;
+    height: 570px;
+    width: 100%;
+    top: 0px;
+    display: none;
+}
+
+#small-screen-side-nav-body{
+    background-color: white;
+    height: 570px;
+}
+
+.user-admin-close-small-screen-sidenav{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.small-screen-ul-body{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.user-dashboard-text{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+/* ================= Media Query ===============*/
+@media only screen and (max-width: 600px) {
+
+    #user-admin-transact-table{
+        padding: 0px;
+    }
+
+    .user-admin-main-fund-body{
+        padding: 0px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
